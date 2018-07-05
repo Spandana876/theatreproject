@@ -56,29 +56,4 @@ public class Customer implements Serializable {
         this.seatingNeeded = seatingNeeded;
     }
 
-/*    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Customer customer = (Customer) o;
-
-        if (seatingNeeded != customer.seatingNeeded) return false;
-        if (!name.equals(customer.name)) return false;
-        if (rowAssigned != null ? !rowAssigned.equals(customer.rowAssigned) : customer.rowAssigned != null)
-            return false;
-        if (sectionAssigned != null ? !sectionAssigned.equals(customer.sectionAssigned) : customer.sectionAssigned != null)
-            return false;
-        return comments != null ? comments.equals(customer.comments) : customer.comments == null;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = name.hashCode();
-        result = 31 * result + (rowAssigned != null ? rowAssigned.hashCode() : 0);
-        result = 31 * result + (sectionAssigned != null ? sectionAssigned.hashCode() : 0);
-        result = 31 * result + (comments != null ? comments.hashCode() : 0);
-        result = 31 * result + seatingNeeded;
-        return result;
-    }*/
 }
